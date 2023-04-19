@@ -100,9 +100,13 @@ Created on Sun Mar 12 18:08:45 2023
 #          {car['gear']} type,\
  #             {car['max_speed']} is the max speed of this bmw")
 
-
-
-
+#Bo'sh lug'at 
+student={}
+student['name']='andrew'
+student['age']=19
+student['faculty']='economy'
+student['university']='Harvard business school'
+print(f"{student['name'].title()} {student['age']}, {student['university'].upper()}")
 
 
 
