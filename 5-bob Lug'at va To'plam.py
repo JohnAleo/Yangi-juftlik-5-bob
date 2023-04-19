@@ -94,11 +94,11 @@ Created on Sun Mar 12 18:08:45 2023
 #              {qishloq['maydoni']} hududni o'z ichiga oladi")
 
 
-car={'name':'bmw','color':'blue','gear':'automatic','max_speed':'360 kmph'}
-print(f"{car['name'].title()},\
-      {car['color']} ray,\
-          {car['gear']} type,\
-              {car['max_speed']} is the max speed of this bmw")
+#car={'name':'bmw','color':'blue','gear':'automatic','max_speed':'360 kmph'}
+#print(f"{car['name'].title()},\
+#      {car['color']} ray,\
+#          {car['gear']} type,\
+ #             {car['max_speed']} is the max speed of this bmw")
 
 
 
