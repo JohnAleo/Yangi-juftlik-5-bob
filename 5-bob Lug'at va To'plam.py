@@ -101,20 +101,24 @@ Created on Sun Mar 12 18:08:45 2023
  #             {car['max_speed']} is the max speed of this bmw")
 
 #Bo'sh lug'at 
-student={}
-student['name']='andrew'
-student['age']=19
-student['faculty']='economy'
-student['university']='Harvard business school'
-print(f"{student['name'].title()} {student['age']}, {student['university'].upper()}")
+#student={}
+#student['name']='andrew'
+#student['age']=19
+#student['faculty']='economy'
+#student['university']='Harvard business school'
+#print(f"{student['name'].title()} {student['age']}, {student['university'].upper()}")
 
-
-
-
-
-
-
-
+cinema={}
+cinema['name']='titanic'
+cinema['genre']='romance,drama'
+cinema['director']='james cameron'
+cinema['imdb rate']='8.7 out of 10'
+cinema['stars']='leonardo di caprio,kate winslet'
+print(f"{cinema['name'].title()},\
+      {cinema['genre']},\
+          {cinema['director'].title()},\
+             {cinema['imdb rate']},\
+                {cinema['stars'].title()}")
 
 
 
