@@ -161,43 +161,111 @@ Created on Sun Mar 12 18:08:45 2023
 
 
 
-dictionary={}
-dictionary['int']="o'zgaruvchining qiymatini butun sonligini ko'rsatadi"
-dictionary['title']='kiritilyotgan qiymatni bosh harfda beradi'
-dictionary['upper']='kiritilayotgan qiymatlarni faqat katta harflarda beradi'
-dictionary['lower']='kiritilayotgan qiymatlarni faqat kichik harflarda beradi'
-dictionary['for']="shart berayotganda uchun ma'nosida keladi"
-dictionary['or']='shart bajarilayotganda 2tadan birortasi bajarilishini anglatadi'
-dictionary['and']='shart bajarilayotganda 2tadan shartning ikkalasi bajarilganda ishlaydi'
-dictionary['float']="integerdan farqli ravishda matnli o'zgaruvchilarni oladi"
-dictionary['sort']='qiymatlarni turlarga ajratadi'
-dictionary['not in']="berilgan qiymatni ro'yxat ichida bo'lmagandagi holatda ishlatiladi"
+#dictionary={}
+#dictionary['int']="o'zgaruvchining qiymatini butun sonligini ko'rsatadi"
+#dictionary['title']='kiritilyotgan qiymatni bosh harfda beradi'
+#dictionary['upper']='kiritilayotgan qiymatlarni faqat katta harflarda beradi'
+#dictionary['lower']='kiritilayotgan qiymatlarni faqat kichik harflarda beradi'
+#dictionary['for']="shart berayotganda uchun ma'nosida keladi"
+#dictionary['or']='shart bajarilayotganda 2tadan birortasi bajarilishini anglatadi'
+#dictionary['and']='shart bajarilayotganda 2tadan shartning ikkalasi bajarilganda ishlaydi'
+#dictionary['float']="integerdan farqli ravishda matnli o'zgaruvchilarni oladi"
+#dictionary['sort']='qiymatlarni turlarga ajratadi'
+#dictionary['not in']="berilgan qiymatni ro'yxat ichida bo'lmagandagi holatda ishlatiladi"
 
-print(f"{dictionary['int']},\
-      {dictionary['title']},\
-          {dictionary['upper']},\
-              {dictionary['lower']},\
-                  {dictionary['for']},\
-                      {dictionary['or']},\
-                          {dictionary['and']},\
-                              {dictionary['float']},\
-                                  {dictionary['sort']},\
-                                      {dictionary['not in']}")
+#print(f"{dictionary['int']},\
+#      {dictionary['title']},\
+#          {dictionary['upper']},\
+#              {dictionary['lower']},\
+#                  {dictionary['for']},\
+#                      {dictionary['or']},\
+#                          {dictionary['and']},\
+#                              {dictionary['float']},\
+#                                  {dictionary['sort']},\
+#                                      {dictionary['not in']}")
 
-
-
-
-
-
-
-
-
-
+#royhat=dictionary
+#royhat=['int','title','upper','lower','for','or','and','float','sort','not in']
+#soz=input("Biror so'z kiriting : ")
+#if soz not in royhat:
+# print("Kechirasiz bunday so'z mavjud emas")
+#else:
+#    print(f"So'z tarjimasi {dictionary}")
 
 
 
+#python_izohli_lugati = {
+#    'integer':"Butun son",
+#    'float':"O'nlik son",
+#    'string':"Matn",
+#    'list':"Ro'yxat",
+#    'tuple':"O'zgarmas ro'yxat"}
+
+#kalit = input("Kalit so'z kiriting:").lower()
+#print(python_izohli_lugati.get(kalit,"Bunday so'z mavjud emas"))
+
+#kalit = input("Kalit so'z kiriting:").lower()
+#tarjima = python_izohli_lugati.get(kalit)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f"{kalit.title()} so'zi {tarjima} deb tarjima qilinadi")
 
 
+car_engineering_words={
+    'speedometr':"Tezlikni o'lchovchi asbob",
+    'tire':'shina',
+    'gear':'uzatma',
+    'engine':'dvigatel',
+    'baggage':'yukxona',
+    'break':'tormoz',
+    }
+
+kalit=input("Kalit so'z kiriting :").lower()
+print(car_engineering_words.get(kalit,"Bunday so'z mavjud emas"))
+
+kalit=input("Kalit so'zni kiriting :").lower()
+tarjima=car_engineering_words.get(kalit)
+if tarjima==None:
+    print("Bunday so'z mavjud emas")
+else:
+    print(f'{kalit.title()} {tarjima} deb tarjima qilinadi')
+
+
+
+
+
+
+
+
+
+
+
+#dictionary={'integer':'butun son',
+#            'float':"o'nlik son",
+#            'title':"qiymatni bosh harfda beradi",
+#            'string':'matn',
+#            'or':'yoki'}
+#kalit=input("Kalit so'z kiriting :").lower
+#manosi=dictionary.get(kalit,"Bunday lug'at mavjud emas")
+#if tarjima==None:
+#    print("Bunday lug'at mavjud emas")
+#else:
+#    print(f"{kalit.title()} so'zi {tarjima} deb tarjima qilinadi")
+
+
+
+
+#taomlar = {
+#    'ali':'osh',
+#    'vali':'shashlik',
+#    'hasan':"lag'mon",
+#    'husan':"mastava",
+#    'olim':"somsa"
+ #   }
+
+#taom = taomlar['ali']
+#print(f"Alining sevimli taomi {taom}")
 
 
 
