@@ -212,24 +212,49 @@ Created on Sun Mar 12 18:08:45 2023
 #    print(f"{kalit.title()} so'zi {tarjima} deb tarjima qilinadi")
 
 
-car_engineering_words={
-    'speedometr':"Tezlikni o'lchovchi asbob",
-    'tire':'shina',
-    'gear':'uzatma',
-    'engine':'dvigatel',
-    'baggage':'yukxona',
-    'break':'tormoz',
-    }
+#car_engineering_words={
+#    'speedometr':"Tezlikni o'lchovchi asbob",
+#    'tire':'shina',
+#    'gear':'uzatma',
+#    'engine':'dvigatel',
+#    'baggage':'yukxona',
+#    'break':'tormoz',
+#    }
 
-kalit=input("Kalit so'z kiriting :").lower()
-print(car_engineering_words.get(kalit,"Bunday so'z mavjud emas"))
+#kalit=input("Kalit so'z kiriting :").lower()
+#print(car_engineering_words.get(kalit,"Bunday so'z mavjud emas"))
 
-kalit=input("Kalit so'zni kiriting :").lower()
-tarjima=car_engineering_words.get(kalit)
+#kalit=input("Kalit so'zni kiriting :").lower()
+#tarjima=car_engineering_words.get(kalit)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f'{kalit.title()} {tarjima} deb tarjima qilinadi')
+
+
+
+math_words={
+    'cosinus':'sonning cosinis qiymati',
+    'sinus':'sonning sinus qiymati',
+    'pi':'3.14 soni',
+    'ln':'natural logarifm',
+    'sqrt':'ildiz'}
+    
+key=input("Kalit so'zni kiriting :").lower()
+print(math_words.get(key,"Bunday so'z mavjud emas"))
+
+key=input("Kalit so'zni kiriting:")
+tarjima=math_words.get(key)
 if tarjima==None:
-    print("Bunday so'z mavjud emas")
+    print("Bunday so'z mavjud emas")    
 else:
-    print(f'{kalit.title()} {tarjima} deb tarjima qilinadi')
+    print(f"{key.title()} {tarjima} deb tarjima qilinadi")
+
+
+
+
+
+
 
 
 
