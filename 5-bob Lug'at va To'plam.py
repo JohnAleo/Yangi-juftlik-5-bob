@@ -311,36 +311,72 @@ Created on Sun Mar 12 18:08:45 2023
 #    print(f"{kalit}title() {tarjima} deb tarjima qilinadi")
 
 
-fizzy_drinks={
-    'coca cola':'qora rangli gazli ichimlik',
-    'fanta':'apelsinli gazli ichimlik',
-    'pepsi':'colaga alternativ ichimlik',
-    'fenci':'arzon gazli ichmlik',
-    'sprite':'limonli gazli ichimlik'
-    }
+#fizzy_drinks={
+#    'coca cola':'qora rangli gazli ichimlik',
+#    'fanta':'apelsinli gazli ichimlik',
+#    'pepsi':'colaga alternativ ichimlik',
+#    'fenci':'arzon gazli ichmlik',
+#    'sprite':'limonli gazli ichimlik'
+#    }
 
 
-kalit=input("Kalit so'zni kiriting  : ")
-print(fizzy_drinks.get(kalit,"Bunday so'z mavjud emas"))
-tarjima=fizzy_drinks.get(kalit)
+#kalit=input("Kalit so'zni kiriting  : ")
+#print(fizzy_drinks.get(kalit,"Bunday so'z mavjud emas"))
+#tarjima=fizzy_drinks.get(kalit)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#        print(f"{kalit}.title() {tarjima} deb tarjima qilinadi ")
+
+#phone={
+#       'camera':'kamera',
+#       'cache memory':'tezkor xotira',
+#       'memory':'doimiy xotira',
+#       'message':'xabar',
+#       'megabiyte':'internet trafik qiymati'}
+
+#kalit=input("Kalit so'zni kiriting : ")
+#print(phone.get(kalit, "Bunday so'z mavjud emas"))
+#tarjima=phone.get(kalit)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f"{kalit} {tarjima} deb tarjima qilinadi ")
+
+
+
+
+#materials={
+#    'leather':'charm',
+#    'rubber':'rezina',
+#    'wood':"yog'och",
+#    'precious stone':'qimmatbaho tosh',
+#    'fibre glass':'shisha tola',
+#    'wax':'mum'}
+
+#kalit=input("Kalit so'zni kiriting : ")
+#print(materials.get(kalit, "Bunday material mavjud emas"))
+#tarjima=materials.get(kalit)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f"{kalit} {tarjima} deb tarjima qilinadi")
+
+
+shoes={
+       'boots':'etiklar',
+       'platform':'past poshnali sport oyoq kiyimi',
+       'slippers':'shippak',
+       'trainres':'krossovka',
+       }
+
+kalit=input("Kalit so'zni kiriting : ")
+print(shoes.get(kalit, "Bunday so'z mavjud emas"))
+tarjima=shoes.get(kalit)
 if tarjima==None:
     print("Bunday so'z mavjud emas")
 else:
-        print(f"{kalit}.title() {tarjima} deb tarjima qilinadi ")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print(f"{kalit} {tarjima} deb tarjima qilinadi")
 
 
 
