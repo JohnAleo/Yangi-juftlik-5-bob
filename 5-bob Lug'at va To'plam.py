@@ -233,22 +233,90 @@ Created on Sun Mar 12 18:08:45 2023
 
 
 
-math_words={
-    'cosinus':'sonning cosinis qiymati',
-    'sinus':'sonning sinus qiymati',
-    'pi':'3.14 soni',
-    'ln':'natural logarifm',
-    'sqrt':'ildiz'}
+#math_words={
+#    'cosinus':'sonning cosinis qiymati',
+#    'sinus':'sonning sinus qiymati',
+#    'pi':'3.14 soni',
+#    'ln':'natural logarifm',
+#    'sqrt':'ildiz'}
     
-key=input("Kalit so'zni kiriting :").lower()
-print(math_words.get(key,"Bunday so'z mavjud emas"))
+#key=input("Kalit so'zni kiriting :").lower()
+#print(math_words.get(key,"Bunday so'z mavjud emas"))
 
-key=input("Kalit so'zni kiriting:")
-tarjima=math_words.get(key)
+#key=input("Kalit so'zni kiriting:")
+#tarjima=math_words.get(key)
+#if tarjima==None:
+ #   print("Bunday so'z mavjud emas")    
+#else:
+#    print(f"{key.title()} {tarjima} deb tarjima qilinadi")
+
+
+
+#physics_words={
+#    'electron':'manfiy zarra',
+#    'ptoton':'musbat zarra',
+#    'volt':'kuchlanish belgisi',
+#    'amper':'tok kuchi',
+#    'atom':"bo'linmas zarra",
+#    'neytron':'neytral zarra',
+#    'tok':"zaryadli zarrachalarning tartibli harakati"}
+
+#kalit=input("Kalit so'zni kiriritng :").lower()
+#print(physics_words.get(key,"Bunday so'z mavjud emas"))
+
+#kalit=input("Kalit so'zni kiriting :")
+#manosi=physics_words.get(key)
+#if manosi==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f"{kalit.title()} {manosi} deb tarjima qilinadi")
+
+
+#politics={
+#    'freedom':'ozodlik',
+#    'evolution':'inqilob',
+#    'liberalism':'liberalizm',
+#    'democracy':'xalq hokimiyati',
+#    'free market':'ochiq bozor',
+#    'realism':'realizm',
+#    }
+
+#kalit=input("Kalit so'zni kiriting").lower()
+#print(politics.get(key,"Bunday so'z mavjud emas"))
+
+#kalit=input("Kalit so'zni kiriting :")
+#tarjima=politics.get(key)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f"{kalit}tite() {tarjima} deb tarjima qilinadi")
+
+
+airway={
+    'regional get':'mahalliy uchoq',
+    'airbus':'fransiya kompaniyasi',
+    'loucoster':'kam chiqimli parvoz',
+    'helicopter':'vertolyot',
+    'charter reys':'maxsus reys',
+    'board supervisor':'bord kuzatuvchisi',
+    'airplane':'samolyot',
+    }
+
+kalit=input("Kalit so'zni kiriting  : ")
+print(airway.get(kalit,"Bunday so'z mavjud emas"))
+tarjima=airway.get(kalit)
 if tarjima==None:
-    print("Bunday so'z mavjud emas")    
+    print("Bunday so'z mavjud emas")
 else:
-    print(f"{key.title()} {tarjima} deb tarjima qilinadi")
+    print(f"{kalit}title() {tarjima} deb tarjima qilinadi")
+
+
+
+
+
+
+
+
 
 
 
