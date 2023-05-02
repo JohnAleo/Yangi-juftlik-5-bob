@@ -292,30 +292,41 @@ Created on Sun Mar 12 18:08:45 2023
 #    print(f"{kalit}tite() {tarjima} deb tarjima qilinadi")
 
 
-airway={
-    'regional get':'mahalliy uchoq',
-    'airbus':'fransiya kompaniyasi',
-    'loucoster':'kam chiqimli parvoz',
-    'helicopter':'vertolyot',
-    'charter reys':'maxsus reys',
-    'board supervisor':'bord kuzatuvchisi',
-    'airplane':'samolyot',
+#airway={
+#    'regional get':'mahalliy uchoq',
+#    'airbus':'fransiya kompaniyasi',
+#    'loucoster':'kam chiqimli parvoz',
+#    'helicopter':'vertolyot',
+#    'charter reys':'maxsus reys',
+#    'board supervisor':'bord kuzatuvchisi',
+#    'airplane':'samolyot',
+#    }
+
+#kalit=input("Kalit so'zni kiriting  : ")
+#print(airway.get(kalit,"Bunday so'z mavjud emas"))
+#tarjima=airway.get(kalit)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f"{kalit}title() {tarjima} deb tarjima qilinadi")
+
+
+fizzy_drinks={
+    'coca cola':'qora rangli gazli ichimlik',
+    'fanta':'apelsinli gazli ichimlik',
+    'pepsi':'colaga alternativ ichimlik',
+    'fenci':'arzon gazli ichmlik',
+    'sprite':'limonli gazli ichimlik'
     }
 
+
 kalit=input("Kalit so'zni kiriting  : ")
-print(airway.get(kalit,"Bunday so'z mavjud emas"))
-tarjima=airway.get(kalit)
+print(fizzy_drinks.get(kalit,"Bunday so'z mavjud emas"))
+tarjima=fizzy_drinks.get(kalit)
 if tarjima==None:
     print("Bunday so'z mavjud emas")
 else:
-    print(f"{kalit}title() {tarjima} deb tarjima qilinadi")
-
-
-
-
-
-
-
+        print(f"{kalit}.title() {tarjima} deb tarjima qilinadi ")
 
 
 
