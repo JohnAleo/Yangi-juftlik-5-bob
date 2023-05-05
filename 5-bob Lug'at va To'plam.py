@@ -363,21 +363,52 @@ Created on Sun Mar 12 18:08:45 2023
 #    print(f"{kalit} {tarjima} deb tarjima qilinadi")
 
 
-shoes={
-       'boots':'etiklar',
-       'platform':'past poshnali sport oyoq kiyimi',
-       'slippers':'shippak',
-       'trainres':'krossovka',
-       }
+#shoes={
+#       'boots':'etiklar',
+#       'platform':'past poshnali sport oyoq kiyimi',
+#       'slippers':'shippak',
+#       'trainres':'krossovka',
+#       }
+
+#kalit=input("Kalit so'zni kiriting : ")
+#print(shoes.get(kalit, "Bunday so'z mavjud emas"))
+#tarjima=shoes.get(kalit)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f"{kalit} {tarjima} deb tarjima qilinadi")
+
+
+#tools={'hammer':"bolga",
+#       'stapler':'stepler',
+#       'knife':'pichoq',
+#       'jigsaw':'motoarra',
+#       'drill':'dril',
+#       'handsaw':'arra'}
+
+#kalit=input("Kalit so'zni kiriting : ")
+#print(tools.get(kalit, "Bunday so'z mavjud emas"))
+#tarjima=tools.get(kalit)
+#if tarjima==None:
+#    print("Bunday so'z mavjud emas")
+#else:
+#    print(f"{kalit} {tarjima} deb tarjima qilinadi")
+
+products={'apple':'olma',
+          'lime':'limon',
+          'banana':'banan',
+          'meat':'gosht',
+          'carrot':'sabzi',
+          'bean':'loviya',
+          'onion':'piyoz'}
 
 kalit=input("Kalit so'zni kiriting : ")
-print(shoes.get(kalit, "Bunday so'z mavjud emas"))
-tarjima=shoes.get(kalit)
+print(products.get(kalit, "Bunday so'z mavjud emas"))
+tarjima=products.get(kalit)
 if tarjima==None:
     print("Bunday so'z mavjud emas")
 else:
-    print(f"{kalit} {tarjima} deb tarjima qilinadi")
-
+    print(f"{kalit} {tarjima} deb trjima qilinadi")
 
 
 
