@@ -54,13 +54,38 @@ Created on Sat May  6 22:29:43 2023
 #    print(f"Davlat,{davlat}")
 
 
-materials={
-    'polyster':'sintetika',
-    'cotton':'paxta',
-    'rubber':'rezina'}
-for material, tarjima in materials.items():
-    print(f"material,{material}")
-    print(f"tarjima,{tarjima}")
+#materials={
+#    'polyster':'sintetika',
+#    'cotton':'paxta',
+#    'rubber':'rezina'}
+#for material, tarjima in materials.items():
+#    print(f"material,{material}")
+#    print(f"tarjima,{tarjima}")
+
+
+
+#houses={
+#        'detached':'hovli',
+#        'semi detached':'alohida hovli',
+#        'cottege':'kotej',
+#        'block of flat':'dom',
+#        }
+#for name, nomi in houses.items():
+#    print(f"name,{name}")
+#    print(f"nomi,{nomi}")
+
+
+laptops={
+    'hp':'amerika brendi',
+    'apple':'amerika brendi',
+    'toshiba':'yaponiya brendi',
+    'samsung':'koreya brendi'}
+for noutbuk, brand in laptops.items():
+    print(f"noutbuk,{noutbuk}")
+    print(f"brand, {brand}")
+
+
+
 
 
 
