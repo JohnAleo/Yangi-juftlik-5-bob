@@ -75,14 +75,61 @@ Created on Sat May  6 22:29:43 2023
 #    print(f"nomi,{nomi}")
 
 
-laptops={
-    'hp':'amerika brendi',
-    'apple':'amerika brendi',
-    'toshiba':'yaponiya brendi',
-    'samsung':'koreya brendi'}
-for noutbuk, brand in laptops.items():
-    print(f"noutbuk,{noutbuk}")
-    print(f"brand, {brand}")
+#laptops={
+#    'hp':'amerika brendi',
+#    'apple':'amerika brendi',
+#    'toshiba':'yaponiya brendi',
+#    'samsung':'koreya brendi'}
+#for noutbuk, brand in laptops.items():
+ #   print(f"noutbuk,{noutbuk}")
+#    print(f"brand, {brand}")
+
+
+#
+#telefonlar={
+#    'ali':'iphone X',
+#    'vali':'galaxy s9',
+#    'olim':'mi 10 pro',
+#    'orif':'nokia 33 10'}
+
+#for k,q in telefonlar.items():
+#    print(f"{k.title()}ning telefoni {q}")
+
+
+#clubs={
+ #      'ronaldo':'al-nasr',
+ #      'kaka':'milan',
+ #      'eldor sh':'roma',
+ #      'm salah':'liverpul'
+ #      }
+
+#for player, club in clubs.items():
+#    print(f"{player.title()}ning clubi {club.upper()}")
+
+
+#teachers={
+#    'azam':'ingliz tili',
+#    'zebo':'ingliz tili',
+#    'sahovat abduqodirovna':'tarix',
+#    'asliddin':'matematika',
+#    'sherzod ismoilov':'fizika'}
+#for name, field in teachers.items():
+#    print(f"{name.title()} {field.upper()}dan dars beradi ")
+
+
+
+#universities={
+#    'sejong':'South korea',
+#    'harvard':'usa',
+#    'cambridge':'uk',
+#    'tokio':'japan',
+#    'berlin':'germany'}
+#for universitet, country in universities.items():
+#    print(f"{universitet.title()} is located in {country}")
+
+
+
+
 
 
 
