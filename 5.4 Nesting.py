@@ -48,13 +48,13 @@ for car in cars:
 print(cars[0])
 # BIROR LUG'ATDAGI ELEMENTGA MUROJAAT QILISH USULI
 print(cars[0]['model'])
-print(cars[1]['rang'].title())
+print(f"{cars[1]['rang'].title()}  "
+      f"{cars[0]['model'].title()}")
 
+# for sikli yordamida bo'sh lug'atlar ham yaratib olishimiz mumkin
 
-
-
-
-
+malibus=[]# malibu mashinalari uchun bo'sh ro'yxat yaratdik
+for in range(5)
 
 
 
