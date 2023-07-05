@@ -16,15 +16,15 @@ Created on Tue May 16 21:20:34 2023
 
 
 
-#cars={
-#      'bmw':45000,
-#      'audi:':30000,
-#      'chevrolet':50000,
-#      'kia':35000}
-#tanlov=['bmw','toyota','chevrolet','nissan','honda']
-#for m in cars:
-#    if m in tanlov:
-#        print(f"{m.title()} {cars[m]} so'm")
+cars={
+      'bmw':45000,
+      'audi:':30000,
+      'chevrolet':50000,
+      'kia':35000}
+tanlov=['bmw','toyota','chevrolet','nissan','honda']
+for m in cars:
+    if m in tanlov:
+ko        print(f"{m.title()} {cars[m]} so'm")
 
 #mahsulotlar={
 #    'olma':5000,
