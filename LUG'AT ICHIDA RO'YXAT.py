@@ -6,3 +6,7 @@ Created on Mon Jul 10 20:43:55 2023
 """
 
 #LUG'AT ICHIDA LUG'AT
+
+dasturchilar={
+    'ali':['python','c++'],
+    'vali':['html','css','js']}
