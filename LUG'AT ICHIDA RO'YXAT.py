@@ -103,26 +103,136 @@ Created on Mon Jul 10 20:43:55 2023
 
 
 
-oshnalar={
-    'xumoyun':['action kinolar ishqibozi'],
-    'zayniddin':['kino tomosha qilib uxlab qoladi'],
-    'lazizbek':['tarixiy yoki hujjatli filmlar muhlisi']}
-for oshna, kinolar in oshnalar.items():
-    print(f"\n{oshna.title()}:",end='')
-    for kino in kinolar:
-        print(f'{kino.upper()}',end='')
+#oshnalar={
+#    'xumoyun':['action kinolar ishqibozi'],
+#    'zayniddin':['kino tomosha qilib uxlab qoladi'],
+#    'lazizbek':['tarixiy yoki hujjatli filmlar muhlisi']}
+#for oshna, kinolar in oshnalar.items():
+#    print(f"\n{oshna.title()}:",end='')
+#    for kino in kinolar:
+#        print(f'{kino.upper()}',end='')
     
 
 
-davlatlar={
-    'aqsh':['shimoliy qutbda joylashgan dunyodagi eng qudratli davlat'],
-    'hindiston':['dunyoning eng kop aholiga ega davlati'],
-    'uzbekiston':['dunyoning eng korrupsion davlatlaridan biri'],
-    'rossiya':['hududi boyicha eng katta davlat']}
-for davlat, xususiyatlar in davlatlar.items():
-    print(f"\n{davlat.title()}:",end='')
-    for xususiyat in xususiyatlar:
-        print(f'{xususiyat.upper()}',end='')
+#davlatlar={
+#    'aqsh':['shimoliy qutbda joylashgan dunyodagi eng qudratli davlat'],
+#    'hindiston':['dunyoning eng kop aholiga ega davlati'],
+#    'uzbekiston':['dunyoning eng korrupsion davlatlaridan biri'],
+#    'rossiya':['hududi boyicha eng katta davlat']}
+#for davlat, xususiyatlar in davlatlar.items():
+#    print(f"\n{davlat.title()}:",end='')
+#    for xususiyat in xususiyatlar:
+#        print(f'{xususiyat.upper()}',end='')
+
+
+
+#davlatlar = {
+#    "o'zbekiston":{'poytaxt':"toshkent",
+#                   'maydon':448978,
+#                   'aholi':33_000_000,
+#                   'pul birligi':"so'm"
+ #                  },
+#    "rossiya":{'poytaxt':"moskva",
+#                   'maydon':17_098_246,
+#                   'aholi':144_000_000,
+#                   'pul birligi':"rubl"
+#                   },
+#    "aqsh":{'poytaxt':"vashington",
+#                   'maydon':9_631_418,
+#                   'aholi':327_000_000,
+#                   'pul birligi':"dollar"},
+#    "malayziya":{'poytaxt':"kuala-lumpur",
+#                   'maydon':329750,
+#                   'aholi':25_000_000,
+#                   'pul birligi':"rinngit"}
+#    }
+
+#davlat = input('Davlat nomini kiriting: ').lower()
+#if davlat in davlatlar:
+#    info = davlatlar[davlat]
+#    print(f"\n{davlat.capitalize()}ning poytaxti {info['poytaxt'].title()}"
+#          f"\nHududi: {info['maydon']} kv.km"
+#          f"\nAholisi: {info['aholi']}"
+#          f"\nPul birligi: {info['pul birligi']}")
+#else:
+#    print("Bizda bu davlat haqida ma'lumot mavjud emas")
+    
+        
+#mamlakatlar={
+#    "gruziya":{'poytaxt':"yerevan",
+#               'maydoni':69700,
+#               'aholisi':3_709_000,
+#               'pul birligi':'lari',
+#           },   
+#    'angliya':{'poytaxt':'london',
+#               'maydoni':130279,
+#               'aholisi':180_000_000,
+#               'pul birligi':'pound sterling',
+#               },
+#    'indonesia':{'poytaxt':'jakarda',
+#                 'maydoni':1904569,
+#                 'aholisi':273_800_000,
+#                 'pul birligi':'indoneziya rupisi'
+#                 },
+#   'canada':{'poytaxt':'ottawa',
+ #            'maydoni':9093507,
+ #            'aholisi':38_250_000,
+ #            'pul birligi':'canada dollari'}
+ #     } 
+#mamlakat=input('Mamlakat nomini kiriting : ').lower()
+#if mamlakat in mamlakatlar:
+#    info=mamlakatlar[mamlakat]
+#    print(f"\n{mamlakat.capitalize()}ning poytaxti {info['poytaxt'].title()}"
+#          f"\nHududi: {info['maydoni']} kv.km"
+#          f"\nAholisi:{info['aholisi']}"
+#          f"\nPul birligi:{info['pul birligi']}")
+#else:
+#        print("Bunday davlat mavjud emas")
+
+
+
+
+cars={
+      'mercedes':{'founder':'carl benz',
+                  'country':'germany',
+                  'income':'5 billion',
+                  'types':'gls, g63, maybach'},
+      'porsche':{'founder':'marc hamilton',
+                 'country':'germany',
+                 'income':'6 billion',
+                 'types':'carrera, cayenne, panamera'
+                 },
+      'lamborghini':{'founder':'ferucco lamborghini',
+                     'country':'italy',
+                     'income':'8 billion',
+                     'types':'urus,aventador,huracan'
+                     },
+      'chevrolet':{'founder':'jack blome',
+                   'country':'usa',
+                   'income':'7 billion',
+                   'types':'camaro, tahoe, suburban'}}
+
+car=input('Enter the car name : ').lower()
+if car in cars:
+    info=cars[car]
+    print(f"\n{car.capitalize()} of founder is {info['founder'].title()}"
+          f"\nCountry:{info['country']}"
+          f"\nIncome:{info['income']}"
+          f"\nmodels:{info['types']}"
+          )
+else:
+      print("This car is not found")  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
