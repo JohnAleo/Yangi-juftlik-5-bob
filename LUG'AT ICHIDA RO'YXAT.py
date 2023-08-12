@@ -192,41 +192,63 @@ Created on Mon Jul 10 20:43:55 2023
 
 
 
-cars={
-      'mercedes':{'founder':'carl benz',
-                  'country':'germany',
-                  'income':'5 billion',
-                  'types':'gls, g63, maybach'},
-      'porsche':{'founder':'marc hamilton',
-                 'country':'germany',
-                 'income':'6 billion',
-                 'types':'carrera, cayenne, panamera'
-                 },
-      'lamborghini':{'founder':'ferucco lamborghini',
-                     'country':'italy',
-                     'income':'8 billion',
-                     'types':'urus,aventador,huracan'
-                     },
-      'chevrolet':{'founder':'jack blome',
-                   'country':'usa',
-                   'income':'7 billion',
-                   'types':'camaro, tahoe, suburban'}}
+#cars={
+#      'mercedes':{'founder':'carl benz',
+#                  'country':'germany',
+#                  'income':'5 billion',
+#                  'types':'gls, g63, maybach'},
+#      'porsche':{'founder':'marc hamilton',
+#                 'country':'germany',
+#                 'income':'6 billion',
+#                 'types':'carrera, cayenne, panamera'
+#                 },
+#      'lamborghini':{'founder':'ferucco lamborghini',
+#                     'country':'italy',
+#                     'income':'8 billion',
+#                     'types':'urus,aventador,huracan'
+#                     },
+#      'chevrolet':{'founder':'jack blome',
+#                   'country':'usa',
+#                   'income':'7 billion',
+#                   'types':'camaro, tahoe, suburban'}}
 
-car=input('Enter the car name : ').lower()
-if car in cars:
-    info=cars[car]
-    print(f"\n{car.capitalize()} of founder is {info['founder'].title()}"
-          f"\nCountry:{info['country']}"
-          f"\nIncome:{info['income']}"
-          f"\nmodels:{info['types']}"
-          )
-else:
-      print("This car is not found")  
-
-
+#car=input('Enter the car name : ').lower()
+#if car in cars:
+#    info=cars[car]
+ #   print(f"\n{car.capitalize()} of founder is {info['founder'].title()}"
+#          f"\nCountry:{info['country']}"
+#          f"\nIncome:{info['income']}"
+#          f"\nmodels:{info['types']}"
+#          )
+#else:
+#      print("This car is not found")  
 
 
 
+phones={
+        'iphone':{'founder':'steve jobs',
+                  'model':'pro max 14',
+                  'products':'planshet, phone ,latops',
+                  'income':'15 bln dollar'},
+        'samsung':{'founder':'Lee Byng-chul',
+                   'model':'Samsung ultra S23',
+                   'products':'planshet, laptops,photo camera, phone, chips',
+                   'income':'18 bln dollar'},
+        'sony':{'founder':'akio morita',
+                'model':'sony ericson',
+                'products':'photo camera, phone, laptops, chips',
+                'income':'20 bln dollar'},
+        'xiaomi':{'founder':'Lei Yung',
+                  'model':'mi 9T pro',
+                  'products':'phone , planshet',
+                  'income':'2 bln dollar'}}
+phone=input('Enter the phone name : ').lower()
+if phone in phones:
+    info=phones[phone]
+    print(f"\n{phone.capitalize()} of founder is {info['founder'].title()}"
+          f"\nModel:{info['model']}"
+          f"\nProducts:{info['products']}"
+          f"\nIncome:{info['income']}")
 
 
 
