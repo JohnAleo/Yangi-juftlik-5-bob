@@ -225,38 +225,81 @@ Created on Mon Jul 10 20:43:55 2023
 
 
 
-phones={
-        'iphone':{'founder':'steve jobs',
-                  'model':'pro max 14',
-                  'products':'planshet, phone ,latops',
-                  'income':'15 bln dollar'},
-        'samsung':{'founder':'Lee Byng-chul',
-                   'model':'Samsung ultra S23',
-                   'products':'planshet, laptops,photo camera, phone, chips',
-                   'income':'18 bln dollar'},
-        'sony':{'founder':'akio morita',
-                'model':'sony ericson',
-                'products':'photo camera, phone, laptops, chips',
-                'income':'20 bln dollar'},
-        'xiaomi':{'founder':'Lei Yung',
-                  'model':'mi 9T pro',
-                  'products':'phone , planshet',
-                  'income':'2 bln dollar'}}
-phone=input('Enter the phone name : ').lower()
-if phone in phones:
-    info=phones[phone]
-    print(f"\n{phone.capitalize()} of founder is {info['founder'].title()}"
-          f"\nModel:{info['model']}"
-          f"\nProducts:{info['products']}"
-          f"\nIncome:{info['income']}")
+#phones={
+#        'iphone':{'founder':'steve jobs',
+#                  'model':'pro max 14',
+#                  'products':'planshet, phone ,latops',
+#                  'income':'15 bln dollar'},
+#        'samsung':{'founder':'Lee Byng-chul',
+#                   'model':'Samsung ultra S23',
+#                   'products':'planshet, laptops,photo camera, phone, chips',
+#                   'income':'18 bln dollar'},
+#        'sony':{'founder':'akio morita',
+#                'model':'sony ericson',
+#                'products':'photo camera, phone, laptops, chips',
+#                'income':'20 bln dollar'},
+#        'xiaomi':{'founder':'Lei Yung',
+#                  'model':'mi 9T pro',
+#                  'products':'phone , planshet',
+#                  'income':'2 bln dollar'}}
+#phone=input('Enter the phone name : ').lower()
+#if phone in phones:
+#    info=phones[phone]
+#    print(f"\n{phone.capitalize()} of founder is {info['founder'].title()}"
+#          f"\nModel:{info['model']}"
+#          f"\nProducts:{info['products']}"
+#          f"\nIncome:{info['income']}")
 
 
 
+#companies={
+#    'Spacex':{'founder':'elon musk',
+#              'field':'astronautic research and business ',
+#              'projects':'starlink, falcon9',
+#              'stock price':'300 bln dollar'},
+#    'tesla':{'founder':'elon musk',
+#             'field':'electric car manufacturing',
+#             'projects':'model y, model s, model x',
+#             'stock price':'780 bln dollar'},
+#    'meta':{'founder':'marc suckerberg',
+#            'field':'mobile apps',
+#            'projects':'facebook, thread',
+#            'stock price':'500 bln dollar'}}
+#company=input('Enter the company name : ').lower()
+#if company in companies:
+#    info=companies[company]
+#    print(f"\n{company.capitalize()} of founder is {info['founder'].title()}"
+#          f"\nField:{info['field']}"
+#          f"\nProjects:{info['projects']}"
+#          f"\nStock price:{info['stock price']}")
 
 
 
-
-
+beverages={
+       'coca cola':{'founder':'the coca cola company',
+                    'color':'black fizzy drink',
+                    'market share':'33 percent'},
+       'pepsi co':{'founder':'the coca cola company',
+                   'color':'black fizzy drink',
+                   'market share':'27 percent'},
+       'fanta':{'founder':'the coca cola company',
+                'color':'orange fizzy drink',
+                'market share':'21 percent'},
+       'rc cola':{'founder':'royal crown co ltd',
+                  'color':'black fizzy drink',
+                  'market share':'12 percent'},
+       'mojito':{'founder':'aqua bottlers beverage co ltd',
+                'color':'green fizzy drink',
+                'market share':'10 percent'}}
+beverage=input('Enter the company name : ').lower()
+if beverage in beverages:
+    info=beverages[beverage]
+    print(f"\n{beverage.capitalize()} is the product of {info['founder'].title()}"
+          f"\nColor:{info['color']}"
+          f"\nMarket share:{info['market share']}"
+          )
+else:
+       print("We have no information about this place") 
 
 
 
